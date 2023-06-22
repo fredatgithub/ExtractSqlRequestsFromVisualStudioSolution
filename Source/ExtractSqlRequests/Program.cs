@@ -17,7 +17,7 @@ namespace ExtractSqlRequests
 
       var startDirectory = new DirectoryInfo(startPath);
       var sqlRequestResultFile = new List<string>();
-      var sqlSearchedWords = "select,insert,delete,update";
+      var sqlSearchedWords = "select,insert,delete,update,alter";
       var comma = ',';
       var codeFilePattern = "*.cs,*.vb";
       var ListOfFiles = new List<string>();
